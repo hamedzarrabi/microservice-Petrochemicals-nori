@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.49">
+    <root id="1">
+      <DefaultCasing>lower/lower</DefaultCasing>
+      <ServerVersion>8.0.30</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="cafe-management"/>
+    <schema id="3" parent="1" name="department_db">
+      <LocalIntrospectionTimestamp>2023-08-14.11:07:38</LocalIntrospectionTimestamp>
+    </schema>
+    <schema id="4" parent="1" name="ecommerce"/>
+    <schema id="5" parent="1" name="employee-isf"/>
+    <schema id="6" parent="1" name="employee_db">
+      <LocalIntrospectionTimestamp>2023-08-14.11:07:38</LocalIntrospectionTimestamp>
+    </schema>
+    <schema id="7" parent="1" name="information_schema"/>
+    <schema id="8" parent="1" name="instagram"/>
+    <schema id="9" parent="1" name="learning-english-tabasom"/>
+    <schema id="10" parent="1" name="manager_employee"/>
+    <schema id="11" parent="1" name="micro_user"/>
+    <schema id="12" parent="1" name="myblog"/>
+    <schema id="13" parent="1" name="mysql"/>
+    <schema id="14" parent="1" name="organization_db">
+      <LocalIntrospectionTimestamp>2023-08-14.11:07:38</LocalIntrospectionTimestamp>
+    </schema>
+    <schema id="15" parent="1" name="performance_schema"/>
+    <schema id="16" parent="1" name="sakila"/>
+    <schema id="17" parent="1" name="siem"/>
+    <schema id="18" parent="1" name="social_media"/>
+    <schema id="19" parent="1" name="sys"/>
+    <schema id="20" parent="1" name="testtag"/>
+    <schema id="21" parent="1" name="unidb"/>
+    <schema id="22" parent="1" name="usermanagement"/>
+    <schema id="23" parent="1" name="world"/>
+    <table id="24" parent="3" name="departments"/>
+    <table id="25" parent="6" name="employees"/>
+    <table id="26" parent="14" name="organizations"/>
+    <column id="27" parent="24" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>BIGINT(19)|-5s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="28" parent="24" name="department_code">
+      <DasType>VARCHAR(255)|12s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="29" parent="24" name="department_description">
+      <DasType>VARCHAR(255)|12s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="30" parent="24" name="department_name">
+      <DasType>VARCHAR(255)|12s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="31" parent="24" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Unique>1</Unique>
+    </index>
+    <key id="32" parent="24" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexColNames>id</UnderlyingIndexColNames>
+    </key>
+    <column id="33" parent="25" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>BIGINT(19)|-5s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="34" parent="25" name="email">
+      <DasType>VARCHAR(255)|12s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="35" parent="25" name="first_name">
+      <DasType>VARCHAR(255)|12s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="36" parent="25" name="last_name">
+      <DasType>VARCHAR(255)|12s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="37" parent="25" name="department_code">
+      <DasType>VARCHAR(255)|12s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="38" parent="25" name="organization_code">
+      <DasType>VARCHAR(255)|12s</DasType>
+      <Position>6</Position>
+    </column>
+    <index id="39" parent="25" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Unique>1</Unique>
+    </index>
+    <index id="40" parent="25" name="UK_j9xgmd0ya5jmus09o0b8pqrpb">
+      <ColNames>email</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="41" parent="25" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexColNames>id</UnderlyingIndexColNames>
+    </key>
+    <key id="42" parent="25" name="UK_j9xgmd0ya5jmus09o0b8pqrpb">
+      <UnderlyingIndexColNames>email</UnderlyingIndexColNames>
+    </key>
+    <column id="43" parent="26" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>BIGINT(19)|-5s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="44" parent="26" name="create_date">
+      <DasType>DATETIME(26)|93s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="45" parent="26" name="organization_code">
+      <DasType>VARCHAR(255)|12s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="46" parent="26" name="organization_description">
+      <DasType>VARCHAR(255)|12s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="47" parent="26" name="organization_name">
+      <DasType>VARCHAR(255)|12s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <index id="48" parent="26" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Unique>1</Unique>
+    </index>
+    <index id="49" parent="26" name="UK_lj2ht6veutd7ylobki761jitv">
+      <ColNames>organization_code</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="50" parent="26" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexColNames>id</UnderlyingIndexColNames>
+    </key>
+    <key id="51" parent="26" name="UK_lj2ht6veutd7ylobki761jitv">
+      <UnderlyingIndexColNames>organization_code</UnderlyingIndexColNames>
+    </key>
+  </database-model>
+</dataSource>
