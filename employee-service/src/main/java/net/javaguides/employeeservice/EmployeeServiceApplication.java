@@ -1,5 +1,10 @@
 package net.javaguides.employeeservice;
 
+import io.swagger.v3.oas.annotations.ExternalDocumentation;
+import io.swagger.v3.oas.annotations.OpenAPIDefinition;
+import io.swagger.v3.oas.annotations.info.Contact;
+import io.swagger.v3.oas.annotations.info.Info;
+import io.swagger.v3.oas.annotations.info.License;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
@@ -11,6 +16,26 @@ import org.springframework.web.reactive.function.client.WebClient;
 
 @SpringBootApplication
 @EnableFeignClients
+@OpenAPIDefinition(
+		info = @Info(
+				title = "Employee Service REST API",
+				description = "Employee service REST APIs Documentation",
+				version = "v1.0",
+				contact = @Contact(
+						name = "Hamed",
+						email = "hamed.zarrabi87@gmail.com",
+						url = "https://www.github.com"
+				),
+				license = @License(
+						name = "Apache 2.0",
+						url = "https://www.github.com"
+				)
+		),
+		externalDocs = @ExternalDocumentation(
+				description = "Employee-Service Doc",
+				url = "https://www.github.com"
+		)
+)
 //@EnableEurekaClient
 public class EmployeeServiceApplication {
 

@@ -7,25 +7,20 @@
     <option name="diagramMode" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc9c6e6e-deb7-4bf9-9fd4-e60b1fd1985c" name="Changes" comment="Microservice for test project Oil Nori - add organization">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fc9c6e6e-deb7-4bf9-9fd4-e60b1fd1985c" name="Changes" comment="Microservice for test project Oil Nori - Update spring 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/net/javaguides/apigateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/net/javaguides/apigateway/ApiGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/net/javaguides/configserver/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/net/javaguides/configserver/ConfigServerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/department-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/department-service/src/main/java/net/javaguides/departmentservice/DepartmentServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/java/net/javaguides/departmentservice/DepartmentServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/department-service/src/main/java/net/javaguides/departmentservice/entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/java/net/javaguides/departmentservice/entity/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department-service/src/main/java/net/javaguides/departmentservice/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/java/net/javaguides/departmentservice/controller/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department-service/src/main/java/net/javaguides/departmentservice/dto/DepartmentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/java/net/javaguides/departmentservice/dto/DepartmentDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/EmployeeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/EmployeeServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/dto/EmployeeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/dto/EmployeeDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/organization-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/organization-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/organization-service/src/main/java/com/hami/organizationservice/OrganizationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/organization-service/src/main/java/com/hami/organizationservice/OrganizationServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/organization-service/src/main/java/com/hami/organizationservice/entity/Organization.java" beforeDir="false" afterPath="$PROJECT_DIR$/organization-service/src/main/java/com/hami/organizationservice/entity/Organization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-registry/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zipkin-server-2.23.19-exec.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization-service/src/main/java/com/hami/organizationservice/controller/OrganizationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/organization-service/src/main/java/com/hami/organizationservice/controller/OrganizationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization-service/src/main/java/com/hami/organizationservice/dto/OrganizationDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/organization-service/src/main/java/com/hami/organizationservice/dto/OrganizationDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +259,7 @@
       <workItem from="1691992490122" duration="14776000" />
       <workItem from="1692016980466" duration="1206000" />
       <workItem from="1692018869543" duration="439000" />
-      <workItem from="1692075615787" duration="1489000" />
+      <workItem from="1692075615787" duration="8166000" />
     </task>
     <task id="LOCAL-00001" summary="Microservice for test project Oil Nori">
       <option name="closed" value="true" />
@@ -306,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692016298342</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Microservice for test project Oil Nori - Update spring 3">
+      <option name="closed" value="true" />
+      <created>1692077993195</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692077993195</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +329,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Microservice for test project Oil Nori" />
     <MESSAGE value="Microservice for test project Oil Nori - add organization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Microservice for test project Oil Nori - add organization" />
+    <MESSAGE value="Microservice for test project Oil Nori - Update spring 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Microservice for test project Oil Nori - Update spring 3" />
   </component>
 </project>
