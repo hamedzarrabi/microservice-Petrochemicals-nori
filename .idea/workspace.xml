@@ -7,23 +7,25 @@
     <option name="diagramMode" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc9c6e6e-deb7-4bf9-9fd4-e60b1fd1985c" name="Changes" comment="Microservice for test project Oil Nori">
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/dto/OrganizationDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/src/main/java/com/hami/organizationservice/controller/OrganizationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/src/main/java/com/hami/organizationservice/dto/OrganizationDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/src/main/java/com/hami/organizationservice/entity/Organization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/src/main/java/com/hami/organizationservice/mapper/OrganizationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/src/main/java/com/hami/organizationservice/repository/OrganizationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/src/main/java/com/hami/organizationservice/service/OrganizationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/src/main/java/com/hami/organizationservice/service/impl/OrganizationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-service/src/main/resources/banner.txt" afterDir="false" />
+    <list default="true" id="fc9c6e6e-deb7-4bf9-9fd4-e60b1fd1985c" name="Changes" comment="Microservice for test project Oil Nori - add organization">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/dto/APIResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/dto/APIResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/dto/EmployeeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/dto/EmployeeDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/net/javaguides/apigateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/net/javaguides/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/net/javaguides/configserver/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/net/javaguides/configserver/ConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department-service/src/main/java/net/javaguides/departmentservice/DepartmentServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/java/net/javaguides/departmentservice/DepartmentServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department-service/src/main/java/net/javaguides/departmentservice/entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/java/net/javaguides/departmentservice/entity/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/EmployeeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/EmployeeServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/mapper/EmployeeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/net/javaguides/employeeservice/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/organization-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization-service/src/main/java/com/hami/organizationservice/OrganizationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/organization-service/src/main/java/com/hami/organizationservice/OrganizationServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization-service/src/main/java/com/hami/organizationservice/entity/Organization.java" beforeDir="false" afterPath="$PROJECT_DIR$/organization-service/src/main/java/com/hami/organizationservice/entity/Organization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-registry/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zipkin-server-2.23.19-exec.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hamedzarrabi&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3b84c3e7-de26-4bb4-8d2c-6f735df734ee" />
+        <option name="url" value="https://github.com/hamedzarrabi/microservice-Petrochemicals-nori.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -60,33 +76,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/Backend/Microservice/springboot-microservices/service-registry",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "spring.configuration.checksum": "645aaf0a50897868acd864870d02a16e",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Backend/Microservice/springboot-microservices/service-registry&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e66311448f728d70bacc5e432f94ca66&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -107,7 +123,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrganizationServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="net.javaguides.apigateway.ApiGatewayApplication" />
       <module name="api-gateway" />
@@ -224,8 +240,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.OrganizationServiceApplication" />
-        <item itemvalue="Application.EmployeeServiceApplication" />
         <item itemvalue="Application.DepartmentServiceApplication" />
+        <item itemvalue="Application.EmployeeServiceApplication" />
         <item itemvalue="Application.ConfigServerApplication" />
         <item itemvalue="Application.ApiGatewayApplication" />
       </list>
@@ -245,7 +261,10 @@
       <workItem from="1691928927387" duration="895000" />
       <workItem from="1691929834305" duration="200000" />
       <workItem from="1691989631302" duration="609000" />
-      <workItem from="1691992490122" duration="13295000" />
+      <workItem from="1691992490122" duration="14776000" />
+      <workItem from="1692016980466" duration="1206000" />
+      <workItem from="1692018869543" duration="439000" />
+      <workItem from="1692075615787" duration="1489000" />
     </task>
     <task id="LOCAL-00001" summary="Microservice for test project Oil Nori">
       <option name="closed" value="true" />
@@ -263,7 +282,31 @@
       <option name="project" value="LOCAL" />
       <updated>1691928970859</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Microservice for test project Oil Nori - add organization">
+      <option name="closed" value="true" />
+      <created>1692014958474</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692014958474</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Microservice for test project Oil Nori - add organization">
+      <option name="closed" value="true" />
+      <created>1692014999536</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692014999536</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Microservice for test project Oil Nori - add organization">
+      <option name="closed" value="true" />
+      <created>1692016298342</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692016298342</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +325,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Microservice for test project Oil Nori" />
-    <option name="LAST_COMMIT_MESSAGE" value="Microservice for test project Oil Nori" />
+    <MESSAGE value="Microservice for test project Oil Nori - add organization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Microservice for test project Oil Nori - add organization" />
   </component>
 </project>
